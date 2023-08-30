@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK | PAPER | SCISSOR</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Rubik+Iso&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game_container">
+        <h2>ROCK PAPER SCISSOR</h2>
+        <h5>By: Rick</h5>
+        <p>Choose Any Of Them:</p>
+        <div class="user" id="user">
+            <span>User(<i class="ri-user-3-line"></i>):</span>
+            <form>
+                <div class="input_container">
+                    <div>
+                        <input type="radio" name="g" value="Rock" id="rock"/>ROCK
+                       </div>
+                        <div>
+                        <input type="radio" name="g" value="Paper" id="paper"/>PAPER
+                        </div>
+                       <div>
+                        <input type="radio" name="g" value="Scissor" id="scissor"/>SCISSOR
+                       </div>
+                </div>
+               <div class="btn_container">
+                <button class="btn" id="submit_btn"><i class="ri-check-double-line"></i></button>
+                <button class="btn2" id="play_again"><i class="ri-arrow-go-forward-line"></i></button>
+               </div>
+            </form>
+        </div>
+        <hr>
+        <div class="Computer" id="computer">
+            <span>Computer (<i class="ri-computer-line"></i>):</span>
+            <form>
+                <div class="input_container">
+                    <div>
+                        <input type="radio" name="g1" value="Rock"/>ROCK
+                       </div>
+                        <div>
+                        <input type="radio" name="g1" value="Paper"/>PAPER
+                        </div>
+                       <div>
+                        <input type="radio" name="g1" value="Scissor"/>SCISSOR
+                       </div>
+                </div>
+               <div>
+        </div>
+    </div>
+    <div class="message">
+        <p id="message_content"><i class="ri-file-info-line"></i></p>
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

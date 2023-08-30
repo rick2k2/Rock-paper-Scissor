@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vmax;
+    height:150vh;
+    flex-direction: column;
+    background: linear-gradient(to right bottom, rgb(6, 24, 224),white);
+    gap: 50px;
+}
+
+.game_container h2{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 5vmax;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    text-shadow: 12px 10px 10px crimson;
+}
+h5{
+    font-family:'Rubik Iso', cursive;
+    font-size: 20px;
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-top: -50px;
+    color: #fff;
+    text-shadow: 12px 10px 10px crimson;
+}
+.user{
+    width: 80%;
+    height: 480px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 5px 8px 30px crimson;
+    border-radius: 50px;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 2vmax;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+form label{
+    font-size: 40px;
+    font-family: 'Oxygen', sans-serif;
+}
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 2px solid #ffffff; 
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+input[type="radio"]:checked {  background: linear-gradient(to right bottom,crimson ,rgba(7, 7, 7, 0.77));background-color: crimson;
+    border: 5px solid #fffffe; 
+}
+form div{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+}
+span{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+.btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.btn{
+    cursor: pointer;
+    background: linear-gradient(to right bottom,crimson ,rgba(7, 7, 7, 0.77));
+    color: #fff;
+    font-size: 2.2vmax;
+    padding: 10px 40px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 8px 30px #fff;
+}
+.btn:hover{
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #fffefe;
+}
+.btn2{
+    cursor: pointer;
+    background: linear-gradient(to right bottom,rgb(8, 100, 229) ,rgba(7, 7, 7, 0.77));
+    color: #fff;
+    font-size: 2.2vmax;
+    padding: 10px 40px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 8px 30px #fff;
+}
+.btn2:hover{
+    color: #fffdfd;
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+.input_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Computer{
+    width: 80%;
+    height: 300px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 5px 8px 30px crimson;
+    border-radius: 50px;
+    flex-wrap: wrap;
+}
+
+.message{
+    padding: 30px;
+    background: linear-gradient( to left bottom,rgb(10, 110, 233),#36353556);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message p{
+    color: #fff;
+    font-size: 2.2vmax;
+    cursor: pointer;
+}
